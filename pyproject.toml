@@ -32,6 +32,8 @@ dependencies = [
     "google-generativeai>=0.8.0",
     "rich>=13.0.0",
     "pathlib2>=2.3.0",
+    "keyring>=23.0.0",
+    "cryptography>=3.0.0",
 ]
 
 [project.optional-dependencies]
@@ -52,6 +54,9 @@ noob = "noob_cli.cli:main"
 hehe = "noob_cli.cli:main"
 hehe-noob = "noob_cli.cli:main"
 hehenoob = "noob_cli.cli:main"
+gemini = "noob_cli.cli:main"
+gemini-cli = "noob_cli.cli:main"
+gai = "noob_cli.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
